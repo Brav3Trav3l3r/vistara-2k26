@@ -27,9 +27,13 @@ export default function Register(props: { styles?: React.CSSProperties }) {
             experience."
           </p>
 
-          <button className="rounded-sm px-12 py-3 mt-6 text-sm font-medium bg-[#FFC106] text-black w-max">
+          <a
+            target="_blank"
+            href={import.meta.env.VITE_FORM_LINK}
+            className="rounded-sm px-12 py-3 mt-6 text-sm font-medium bg-[#FFC106] text-black w-max"
+          >
             REGISTER
-          </button>
+          </a>
         </div>
       </section>
 
