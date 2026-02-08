@@ -12,7 +12,7 @@ export default function Hero(props: Readonly<{ styles: React.CSSProperties }>) {
       className="flex"
     >
       <header className="flex flex-col justify-end p-4 pb-8 sm:p-16 w-full">
-        <div className="text-5xl sm:text-6xl my-4 text-gray-800 dark:text-white font-serif">
+        <div className="text-5xl sm:text-6xl my-4 font-serif">
           From Curiosity to Discovery
         </div>
         <div className="flex flex-col sm:flex-row gap-3 justify-between items-start">
