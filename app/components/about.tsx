@@ -1,11 +1,13 @@
-export default function About(props) {
+export default function About(
+  props: Readonly<{ styles?: React.CSSProperties }>
+) {
   return (
     <div
       style={{ ...props.styles }}
-      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-18 sm:pt-28 pb-20"
+      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-18 sm:pt-32 pb-20"
     >
       {/* Header */}
-      <p className="text-5xl sm:text-6xl font-serif mb-14 tracking-tight">
+      <p className="text-5xl sm:text-6xl font-serif mb-8 tracking-tight">
         About Us
       </p>
 
@@ -38,7 +40,7 @@ export default function About(props) {
             <h2 className="text-3xl sm:text-3xl font-medium mb-2">
               Who we are
             </h2>
-            <p className="text-base sm:text-md leading-snug">
+            <p className="text-base sm:text-md leading-snug font-medium">
               The International Students Service (ISS) Club is a dynamic
               community dedicated to fostering inclusivity and building
               meaningful relationships among international and domestic

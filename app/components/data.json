@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Cultural Exchange Night",
+    "description": "Join us for an evening of cultural exchange. Share your traditions, food, and stories with the community in a welcoming atmosphere.",
+    "day": "28",
+    "month": "September",
+    "location": "Conference Room, Berkley",
+    "time": "6:00 PM - 9:00 PM",
+    "image": "/images/clg-img1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "International Movie Screening",
+    "description": "Experience films from around the world. This month we're featuring a selection of award-winning international cinema.",
+    "day": "30",
+    "month": "November",
+    "location": "Auditorium",
+    "time": "7:00 PM - 10:00 PM",
+    "image": "/images/clg-img1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Arts day",
+    "description": "A full day of workshops and exhibitions. Try your hand at calligraphy, painting, and other traditional and contemporary art forms.",
+    "day": "28",
+    "month": "October",
+    "location": "Arts Block",
+    "time": "8:00 AM - 2:00 PM",
+    "image": "/images/clg-img1.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Cultural Exchange Night",
+    "description": "Join us for an evening of cultural exchange. Share your traditions, food, and stories with the community in a welcoming atmosphere.",
+    "day": "28",
+    "month": "September",
+    "location": "Conference Room, Berkley",
+    "time": "6:00 PM - 9:00 PM",
+    "image": "/images/clg-img1.jpg"
+  },
+  {
+    "id": 5,
+    "title": "International Movie Screening",
+    "description": "Experience films from around the world. This month we're featuring a selection of award-winning international cinema.",
+    "day": "30",
+    "month": "November",
+    "location": "Auditorium",
+    "time": "7:00 PM - 10:00 PM",
+    "image": "/images/clg-img1.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Arts day",
+    "description": "A full day of workshops and exhibitions. Try your hand at calligraphy, painting, and other traditional and contemporary art forms.",
+    "day": "28",
+    "month": "October",
+    "location": "Arts Block",
+    "time": "8:00 AM - 2:00 PM",
+    "image": "/images/clg-img1.jpg"
+  }
+]
