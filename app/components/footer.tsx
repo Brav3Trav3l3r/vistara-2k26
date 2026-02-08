@@ -4,29 +4,29 @@ import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa6";
 
 export default function Footer(props: { styles?: React.CSSProperties }) {
   return (
-    <footer className="absolute bottom-0 inset-x-14">
+    <footer className="absolute bottom-0 inset-x-4 sm:inset-x-14">
       <div className="mx-auto pt-16 pb-8 lg:pt-24">
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col sm:flex-row justify-between items-center">
           {/* Logo - Left */}
-          <div className="text-3xl font-bold flex gap-3 items-center font-serif">
+          <div className="text-xl sm:text-3xl font-bold flex gap-3 items-center font-serif">
             <img
               src="/images/clg-logo.png"
               alt="College Logo"
-              className="h-16"
+              className="h-10 sm:h-16"
             />
             <p>JSS Mahavidyapeetha</p>
           </div>
 
           <div className="flex-grow flex justify-center items-center">
-            <RxCross2 className="text-4xl" />
+            <RxCross2 className="text-xl sm:text-4xl" />
           </div>
 
           {/* Logo - Left */}
-          <div className="text-3xl font-bold flex gap-3 items-center font-serif">
+          <div className="text-xl sm:text-3xl font-bold flex gap-3 items-center font-serif">
             <img
-              src="/images/clg-logo.png"
+              src="/images/fest-logo.png"
               alt="College Logo"
-              className="h-16"
+              className="h-10 sm:h-16"
             />
             <p>Vistara 2k26</p>
           </div>

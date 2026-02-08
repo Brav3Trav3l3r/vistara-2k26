@@ -5,9 +5,9 @@ export default function Navbar() {
         {/* Logo - Left */}
         <div className="text-3xl sm:text-2xl font-semibold flex gap-3 items-center font-serif">
           <img
-            src="/images/clg-logo.png"
+            src="/images/fest-logo.png"
             alt="College Logo"
-            className="h-8" // Adjust height as needed
+            className="h-10 sm:h-10" // Adjust height as needed
           />
           <p>Vistara 2k26</p>
         </div>
