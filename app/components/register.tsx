@@ -11,7 +11,7 @@ export default function Register(props: { styles?: React.CSSProperties }) {
         <div
           style={{
             backgroundImage:
-              'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/clg-event.jpg")',
+              'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/ghibli-group.jpeg")',
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -22,7 +22,7 @@ export default function Register(props: { styles?: React.CSSProperties }) {
             Science, Innovation <span className="font-serif">&</span>{" "}
             Exploration
           </p>
-          <p className="max-w-prose mt-4 leading-snug font-medium">
+          <p className="max-w-prose mt-4 leading-snug font-medium sm:text-lg">
             "Discover amazing events happening in our college! Register now to
             participate in exciting activities and make the most of your college
             experience."

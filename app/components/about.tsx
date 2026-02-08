@@ -52,16 +52,16 @@ export default function About(
           <div className="grid grid-cols-2 gap-6">
             <div className="overflow-hidden rounded shadow-lg h-40 sm:h-96">
               <img
-                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&h=400&fit=crop"
+                src="/images/clg-1.jpeg"
                 alt="ISS Club members at an event"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="overflow-hidden rounded shadow-lg h-40 sm:h-96">
               <img
-                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=400&fit=crop"
+                src="/images/baba.jpeg"
                 alt="ISS Club sports activity"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
               />
             </div>
           </div>
