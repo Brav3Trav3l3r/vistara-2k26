@@ -1,62 +1,101 @@
 [
   {
     "id": 1,
-    "title": "Cultural Exchange Night",
-    "description": "Join us for an evening of cultural exchange. Share your traditions, food, and stories with the community in a welcoming atmosphere.",
-    "day": "28",
-    "month": "September",
-    "location": "Conference Room, Berkley",
-    "time": "6:00 PM - 9:00 PM",
-    "image": "/images/clg-img1.jpg"
+    "title": "Vistara Pradarshini",
+    "subtitle": "Exhibition (Expansion of Display)",
+    "description": "An exhibition showcasing scientific models, innovative ideas, and creative projects by students.",
+    "day": "24th",
+    "month": "February",
+    "location": "Physics Lab",
+    "time": "12:30 PM",
+    "image": "/images/exhb.jpeg"
   },
   {
     "id": 2,
-    "title": "International Movie Screening",
-    "description": "Experience films from around the world. This month we're featuring a selection of award-winning international cinema.",
-    "day": "30",
-    "month": "November",
+    "title": "Buddhi Vardhini",
+    "subtitle": "Quiz (Enhancer of Intellect)",
+    "description": "The quiz begin with a preliminary MCQ round where top teams advance to the final round, which will be engaged on stage battle",
+    "day": "24th",
+    "month": "February",
     "location": "Auditorium",
-    "time": "7:00 PM - 10:00 PM",
-    "image": "/images/clg-img1.jpg"
+    "time": "12:30 PM",
+    "image": "/images/quiz.jpeg"
   },
   {
     "id": 3,
-    "title": "Arts day",
-    "description": "A full day of workshops and exhibitions. Try your hand at calligraphy, painting, and other traditional and contemporary art forms.",
-    "day": "28",
-    "month": "October",
-    "location": "Arts Block",
-    "time": "8:00 AM - 2:00 PM",
-    "image": "/images/clg-img1.jpg"
+    "title": "Nakshatra Nartanam",
+    "subtitle": "Dance of Stars",
+    "description": "A graceful dance event inspired by cosmic rhythms, expressing science and art through movement and creativity.",
+    "day": "24th",
+    "month": "February",
+    "location": "Auditorium",
+    "time": "2:30 PM",
+    "image": "/images/dance.jpeg"
   },
   {
     "id": 4,
-    "title": "Cultural Exchange Night",
-    "description": "Join us for an evening of cultural exchange. Share your traditions, food, and stories with the community in a welcoming atmosphere.",
-    "day": "28",
-    "month": "September",
-    "location": "Conference Room, Berkley",
-    "time": "6:00 PM - 9:00 PM",
-    "image": "/images/clg-img1.jpg"
+    "title": "Punar Nirmana",
+    "subtitle": "Best out of Waste (Recycling the Waste)",
+    "description": "A creative event that promotes sustainability by transforming waste materials into useful and artistic products.",
+    "day": "24th",
+    "month": "February",
+    "location": "Botany lab",
+    "time": "3:30 PM",
+    "image": "/images/bow.jpeg"
   },
   {
     "id": 5,
-    "title": "International Movie Screening",
-    "description": "Experience films from around the world. This month we're featuring a selection of award-winning international cinema.",
-    "day": "30",
-    "month": "November",
-    "location": "Auditorium",
-    "time": "7:00 PM - 10:00 PM",
-    "image": "/images/clg-img1.jpg"
+    "title": "Rahasya Marga",
+    "subtitle": "Treasure Hunt (Path of Mystery)",
+    "description": "An exciting hunt filled with clues and puzzles that challenge scientific thinking, teamwork, and problem-solving skills.",
+    "day": "25",
+    "month": "February",
+    "location": "College Campus",
+    "time": "6:30 AM",
+    "image": "/images/t-hunt.jpeg"
   },
   {
     "id": 6,
-    "title": "Arts day",
-    "description": "A full day of workshops and exhibitions. Try your hand at calligraphy, painting, and other traditional and contemporary art forms.",
-    "day": "28",
-    "month": "October",
-    "location": "Arts Block",
-    "time": "8:00 AM - 2:00 PM",
-    "image": "/images/clg-img1.jpg"
+    "title": "Yukthi Prahara",
+    "subtitle": "Debate (Strike of Reason)",
+    "description": "It involves speaker arguing both for and against a topic with a set time switching sides midway.",
+    "day": "25th",
+    "month": "February",
+    "location": "AV Room",
+    "time": "10:30 AM",
+    "image": "/images/debate.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Kala Vasthram",
+    "subtitle": "Fashion Show (Art of Fashion)",
+    "description": "Participants showcase the rich diversity of sarees, highlighting unique weaves & tradition from different states and religions.",
+    "day": "25th",
+    "month": "February",
+    "location": "Auditorium",
+    "time": "10:30 AM",
+    "image": "/images/fashion.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Gnyana Darpanam",
+    "subtitle": "Poster Making",
+    "description": "A poster presentation event that visually communicates scientific ideas, awareness, and innovation in a creative manner.",
+    "day": "25th",
+    "month": "February",
+    "location": "Room no. 207",
+    "time": "12 AM",
+    "image": "/images/p-making.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Rangavinyasam",
+    "subtitle": "Scientific Rangoli",
+    "description": "A colorful rangoli competition depicting scientific concepts, symbols, and discoveries through traditional art.",
+    "day": "25th",
+    "month": "February",
+    "location": "-",
+    "time": "12 AM",
+    "image": "/images/rangoli.jpeg"
   }
 ]

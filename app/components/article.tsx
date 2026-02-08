@@ -11,8 +11,13 @@ export default function Article({ event }) {
         style={{ backgroundImage: `url(${event.image})` }}
       />
       <div className="p-5 sm:p-6 flex flex-col gap-2">
-        <h2 className="text-xl font-semibold leading-tight">{event.title}</h2>
-        <p className="text-sm leading-snug line-clamp-3">{event.description}</p>
+        <div>
+          <h2 className="text-xl font-semibold leading-tight">{event.title}</h2>
+          <i className="text-sm">{event.subtitle}</i>
+        </div>
+        <p className="text-sm sm:text-base leading-snug line-clamp-3">
+          {event.description}
+        </p>
         <div className="flex gap-4 mt-4 items-center">
           <div className="flex flex-col">
             <span className="text-4xl leading-none">{event.day}</span>

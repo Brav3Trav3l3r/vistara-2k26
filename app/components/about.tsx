@@ -4,17 +4,17 @@ export default function About(
   return (
     <div
       style={{ ...props.styles }}
-      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-18 sm:pt-32 pb-20"
+      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-28 sm:pt-32 pb-20"
     >
       {/* Header */}
-      <p className="text-5xl sm:text-6xl font-serif mb-8 tracking-tight">
+      <p className="text-4xl sm:text-6xl font-serif mb-8 sm:mb-10 tracking-tight">
         About Us
       </p>
 
       {/* Main Content Grid */}
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start">
         {/* Left Column - Logo and Quote */}
-        <div className="flex flex-col items-center lg:items-start gap-12">
+        <div className="flex flex-row sm:flex-col items-center lg:items-start gap-4 sm:gap-12">
           {/* Logo Section */}
           <div className="w-full max-w-sm lg:max-w-md">
             <img
@@ -26,9 +26,8 @@ export default function About(
 
           {/* Quote Section */}
           <div className="w-full">
-            <p className="text-lg sm:text-2xl font-medium leading-relaxed text-gray-800">
-              “Diversity is the one true thing we all have in common. Celebrate
-              it every day with ISS.”
+            <p className="text-lg sm:text-2xl italic font-medium leading-relaxed text-gray-800">
+              “Empowering Women Through Knowledge, Values, and Excellence.”
             </p>
           </div>
         </div>
@@ -37,30 +36,28 @@ export default function About(
         <div className="flex flex-col gap-8">
           {/* Who We Are Section */}
           <div>
-            <h2 className="text-3xl sm:text-3xl font-medium mb-2">
+            <h2 className="text-2xl sm:text-3xl sm:text-3xl font-medium mb-2">
               Who we are
             </h2>
-            <p className="text-base sm:text-md leading-snug font-medium">
-              The International Students Service (ISS) Club is a dynamic
-              community dedicated to fostering inclusivity and building
-              meaningful relationships among international and domestic
-              students. Founded in 2022, the club aims to bridge cultural gaps
-              through engaging events, workshops, and activities. At ISS Club,
-              we celebrate diversity and create opportunities for members to
-              connect, grow, and thrive together.
+            <p className="sm:text-md leading-snug font-medium">
+              JSS College for Women, Mysuru is a premier institution dedicated
+              to academic excellence, character building, and the empowerment of
+              women through holistic education. Rooted in strong values and
+              progressive thinking, the college nurtures young women to become
+              confident leaders, innovators, and responsible citizens.
             </p>
           </div>
 
           {/* Images Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="overflow-hidden rounded shadow-lg h-64 sm:h-96">
+          <div className="grid grid-cols-2 gap-6">
+            <div className="overflow-hidden rounded shadow-lg h-40 sm:h-96">
               <img
                 src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&h=400&fit=crop"
                 alt="ISS Club members at an event"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <div className="overflow-hidden rounded shadow-lg h-64 sm:h-96">
+            <div className="overflow-hidden rounded shadow-lg h-40 sm:h-96">
               <img
                 src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=400&fit=crop"
                 alt="ISS Club sports activity"

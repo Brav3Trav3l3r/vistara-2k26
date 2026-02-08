@@ -19,7 +19,8 @@ export default function Register(props: { styles?: React.CSSProperties }) {
         >
           <p className="text-6xl font-serif">Vistara 2k26</p>
           <p className="text-3xl">
-            Cultural <span className="font-serif">&</span> Arts Events
+            Science, Innovation <span className="font-serif">&</span>{" "}
+            Exploration
           </p>
           <p className="max-w-prose mt-4 leading-snug font-medium">
             "Discover amazing events happening in our college! Register now to
