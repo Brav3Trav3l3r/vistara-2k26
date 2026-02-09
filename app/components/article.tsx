@@ -1,6 +1,10 @@
 import { FaLocationDot, FaClock } from "react-icons/fa6";
+import Modal from "./modal";
+import { useState } from "react";
 
 export default function Article({ event }) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <article
       key={event.id}
@@ -38,11 +42,18 @@ export default function Article({ event }) {
         </div>
         <button
           type="button"
+          onClick={() => setIsModalOpen(true)}
           className="mt-2 w-full py-2.5 rounded-lg border font-medium text-sm hover:bg-[#301707]/5 transition-colors"
         >
           DETAILS
         </button>
       </div>
+
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        event={event}
+      />
     </article>
   );
 }

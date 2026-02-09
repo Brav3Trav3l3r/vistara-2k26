@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
+      {/* TODO BE REMOVED <Navbar /> */}
       <MegaScroll onChange={setActive}>
         <Hero styles={{ ...styles }} />
         <About styles={{ ...styles }} />

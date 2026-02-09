@@ -1,10 +1,10 @@
 export default function About(
-  props: Readonly<{ styles?: React.CSSProperties }>
+  props: Readonly<{ styles?: React.CSSProperties }>,
 ) {
   return (
     <div
       style={{ ...props.styles }}
-      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-28 sm:pt-32 pb-20"
+      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-14 pb-20"
     >
       {/* Header */}
       <p className="text-4xl sm:text-6xl font-serif mb-8 sm:mb-10 tracking-tight">

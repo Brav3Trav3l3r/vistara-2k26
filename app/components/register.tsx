@@ -4,7 +4,7 @@ export default function Register(props: { styles?: React.CSSProperties }) {
   return (
     <div
       style={{ ...props.styles }}
-      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-28 sm:pt-32 pb-20 relative"
+      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-14 pb-20 relative"
     >
       {/* Main Content Grid */}
       <section className="">
@@ -15,7 +15,7 @@ export default function Register(props: { styles?: React.CSSProperties }) {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className="min-h-[40vh] rounded-2xl p-4 text-[#F5EAD7] text-center flex flex-col justify-center items-center"
+          className="min-h-[60vh] rounded-2xl p-4 text-[#F5EAD7] text-center flex flex-col justify-center items-center"
         >
           <p className="text-4xl font-medium sm:text-6xl font-serif">
             Vistara 2k26
@@ -32,7 +32,7 @@ export default function Register(props: { styles?: React.CSSProperties }) {
           <a
             target="_blank"
             href={import.meta.env.VITE_FORM_LINK}
-            className="rounded-sm px-12 py-3 mt-6 text-sm font-medium bg-[#FFC106] text-black w-max"
+            className="cursor-pointer rounded-sm px-12 py-3 mt-6 text-sm font-medium bg-[#FFC106] text-black w-max"
           >
             REGISTER
           </a>

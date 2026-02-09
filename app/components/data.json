@@ -8,7 +8,9 @@
     "month": "February",
     "location": "Physics Lab",
     "time": "12:30 PM",
-    "image": "/images/exhb.jpeg"
+    "image": "/images/exhb.jpeg",
+    "html": "<h3 style='color: #2563eb; margin-bottom: 1rem;'>Welcome to the Modal</h3><p style='margin-bottom: 1rem;'>This modal can render <strong>any HTML content</strong> you pass to it.</p>",
+    "fee": "300"
   },
   {
     "id": 2,
@@ -19,7 +21,9 @@
     "month": "February",
     "location": "Auditorium",
     "time": "12:30 PM",
-    "image": "/images/quiz.jpeg"
+    "image": "/images/quiz.jpeg",
+    "html": "",
+    "fee": "300"
   },
   {
     "id": 3,
@@ -30,7 +34,9 @@
     "month": "February",
     "location": "Auditorium",
     "time": "2:30 PM",
-    "image": "/images/dance.jpeg"
+    "image": "/images/dance.jpeg",
+    "html": "",
+    "fee": "300"
   },
   {
     "id": 4,
@@ -41,7 +47,9 @@
     "month": "February",
     "location": "Botany lab",
     "time": "3:30 PM",
-    "image": "/images/bow.jpeg"
+    "image": "/images/bow.jpeg",
+    "html": "",
+    "fee": "300"
   },
   {
     "id": 5,
@@ -52,7 +60,9 @@
     "month": "February",
     "location": "College Campus",
     "time": "6:30 AM",
-    "image": "/images/t-hunt.jpeg"
+    "image": "/images/t-hunt.jpeg",
+    "html": "",
+    "fee": "300"
   },
   {
     "id": 6,
@@ -63,7 +73,9 @@
     "month": "February",
     "location": "AV Room",
     "time": "10:30 AM",
-    "image": "/images/debate.jpeg"
+    "image": "/images/debate.jpeg",
+    "html": "",
+    "fee": "300"
   },
   {
     "id": 7,
@@ -74,7 +86,9 @@
     "month": "February",
     "location": "Auditorium",
     "time": "10:30 AM",
-    "image": "/images/fashion.jpeg"
+    "image": "/images/fashion.jpeg",
+    "html": "",
+    "fee": "300"
   },
   {
     "id": 8,
@@ -85,7 +99,9 @@
     "month": "February",
     "location": "Room no. 207",
     "time": "12 AM",
-    "image": "/images/p-making.jpeg"
+    "image": "/images/p-making.jpeg",
+    "html": "",
+    "fee": "300"
   },
   {
     "id": 9,
@@ -96,6 +112,8 @@
     "month": "February",
     "location": "-",
     "time": "12 AM",
-    "image": "/images/rangoli.jpeg"
+    "image": "/images/rangoli.jpeg",
+    "html": "",
+    "fee": "300"
   }
 ]
