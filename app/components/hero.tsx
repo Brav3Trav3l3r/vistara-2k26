@@ -22,9 +22,12 @@ export default function Hero(props: Readonly<{ styles: React.CSSProperties }>) {
             explore science beyond textbooks, exchange ideas, and showcase
             talent that shapes the future
           </p>
-          <button className="mt-4 sm:mt-0 rounded-sm w-max px-12 py-3 text-sm font-medium bg-[#FFC106] text-black">
+          <a
+            href={import.meta.env.VITE_FORM_LINK}
+            className="mt-4 sm:mt-0 rounded-sm w-max px-12 py-3 text-sm font-medium bg-[#FFC106] text-black"
+          >
             REGISTER
-          </button>
+          </a>
         </div>
       </header>
     </div>

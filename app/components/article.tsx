@@ -4,10 +4,10 @@ export default function Article({ event }) {
   return (
     <article
       key={event.id}
-      className="shrink-0 w-[320px] sm:w-[360px] rounded-xl bg-[#F5EAD7] text-[#2E1708] overflow-hidden shadow-sm snap-start"
+      className="shrink-0 w-[320px] sm:w-90 rounded-xl bg-[#F5EAD7] text-[#2E1708] overflow-hidden shadow-sm snap-start"
     >
       <div
-        className="w-full aspect-4/3 bg-cover bg-center"
+        className="w-full aspect-video sm:aspect-4/3 bg-cover bg-center"
         style={{ backgroundImage: `url(${event.image})` }}
       />
       <div className="p-5 sm:p-6 flex flex-col gap-2">

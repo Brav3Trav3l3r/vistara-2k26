@@ -15,14 +15,15 @@ export default function Register(props: { styles?: React.CSSProperties }) {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className="h-96 rounded-2xl p-4 text-[#F5EAD7] text-center flex flex-col justify-center items-center gap-3"
+          className="min-h-[40vh] rounded-2xl p-4 text-[#F5EAD7] text-center flex flex-col justify-center items-center"
         >
-          <p className="text-5xl sm:text-6xl font-serif">Vistara 2k26</p>
-          <p className="text-2xl sm:text-3xl">
-            Science, Innovation <span className="font-serif">&</span>{" "}
-            Exploration
+          <p className="text-4xl font-medium sm:text-6xl font-serif">
+            Vistara 2k26
           </p>
-          <p className="max-w-prose mt-4 leading-snug font-medium sm:text-lg">
+          <p className="text-2xl font-serif sm:text-3xl mt-1">
+            Science, Innovation & Exploration
+          </p>
+          <p className="max-w-prose mt-3 sm:mt-4 leading-snug sm:text-lg">
             "Discover amazing events happening in our college! Register now to
             participate in exciting activities and make the most of your college
             experience."
