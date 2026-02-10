@@ -1,10 +1,10 @@
 export default function About(
-  props: Readonly<{ styles?: React.CSSProperties }>,
+  props: Readonly<{ styles?: React.CSSProperties }>
 ) {
   return (
     <div
       style={{ ...props.styles }}
-      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-14 pb-20"
+      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 p-4 sm:pt-14 pb-20"
     >
       {/* Header */}
       <p className="text-4xl sm:text-6xl font-serif mb-8 sm:mb-10 tracking-tight">
@@ -33,10 +33,10 @@ export default function About(
         </div>
 
         {/* Right Column - Content and Images */}
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-4 sm:gap-8">
           {/* Who We Are Section */}
           <div>
-            <h2 className="text-2xl sm:text-3xl sm:text-3xl font-medium mb-2">
+            <h2 className="text-2xl sm:text-3xl font-medium mb-2">
               Who we are
             </h2>
             <p className="sm:text-md leading-snug font-medium">
@@ -49,7 +49,7 @@ export default function About(
           </div>
 
           {/* Images Grid */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 gap-3 sm:gap-6">
             <div className="overflow-hidden rounded shadow-lg h-40 sm:h-96">
               <img
                 src="/images/clg-1.jpeg"

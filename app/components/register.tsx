@@ -4,10 +4,10 @@ export default function Register(props: { styles?: React.CSSProperties }) {
   return (
     <div
       style={{ ...props.styles }}
-      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-14 pb-20 relative"
+      className="bg-[#F5EAD7] text-[#2D1C0A] px-4 sm:px-16 pt-4 sm:pt-14 pb-20 relative"
     >
       {/* Main Content Grid */}
-      <section className="">
+      <section className="w-full">
         <div
           style={{
             backgroundImage:
@@ -15,7 +15,7 @@ export default function Register(props: { styles?: React.CSSProperties }) {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className="min-h-[60vh] rounded-2xl p-4 text-[#F5EAD7] text-center flex flex-col justify-center items-center"
+          className="rounded-2xl min-h-[50vh] md:min-h-[60vh] p-4 text-[#F5EAD7] text-center flex flex-col justify-center items-center"
         >
           <p className="text-4xl font-medium sm:text-6xl font-serif">
             Vistara 2k26
@@ -24,9 +24,9 @@ export default function Register(props: { styles?: React.CSSProperties }) {
             Science, Innovation & Exploration
           </p>
           <p className="max-w-prose mt-3 sm:mt-4 leading-snug sm:text-lg">
-            "Discover amazing events happening in our college! Register now to
+            Discover amazing events happening in our college! Register now to
             participate in exciting activities and make the most of your college
-            experience."
+            experience.
           </p>
 
           <a
