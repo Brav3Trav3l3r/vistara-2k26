@@ -3,7 +3,6 @@ import { FaClock, FaIndianRupeeSign, FaLocationDot } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
 
 export default function Modal({ isOpen, onClose, event }) {
-  console.log("🚀 ~ Modal ~ event:", event);
   // Close modal on Escape key press
   useEffect(() => {
     const handleEscape = (e) => {
