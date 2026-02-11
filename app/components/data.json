@@ -9,7 +9,7 @@
     "location": "Physics Lab",
     "time": "12:30 PM",
     "image": "/images/exhb.jpeg",
-    "html": "<h3 style='color: #2563eb; margin-bottom: 1rem;'>Welcome to the Modal</h3><p style='margin-bottom: 1rem;'>This modal can render <strong>any HTML content</strong> you pass to it.</p>",
+    "markdown": "markdown/exhibition-rules.md",
     "fee": "300"
   },
   {
@@ -22,7 +22,7 @@
     "location": "Auditorium",
     "time": "12:30 PM",
     "image": "/images/quiz.jpeg",
-    "html": "",
+    "markdown": "/markdown/quiz-rules.md",
     "fee": "300"
   },
   {
@@ -35,7 +35,7 @@
     "location": "Auditorium",
     "time": "2:30 PM",
     "image": "/images/dance.jpeg",
-    "html": "",
+    "markdown": "/markdown/dance-rules.md",
     "fee": "300"
   },
   {
@@ -48,7 +48,7 @@
     "location": "Botany lab",
     "time": "3:30 PM",
     "image": "/images/bow.jpeg",
-    "html": "",
+    "markdown": "/markdown/bow-rules.md",
     "fee": "300"
   },
   {
@@ -61,7 +61,7 @@
     "location": "College Campus",
     "time": "6:30 AM",
     "image": "/images/t-hunt.jpeg",
-    "html": "",
+    "markdown": "/markdown/t-hunt-rules.md",
     "fee": "300"
   },
   {
@@ -74,7 +74,7 @@
     "location": "AV Room",
     "time": "10:30 AM",
     "image": "/images/debate.jpeg",
-    "html": "",
+    "markdown": "/markdown/debate.md",
     "fee": "300"
   },
   {
@@ -87,7 +87,7 @@
     "location": "Auditorium",
     "time": "10:30 AM",
     "image": "/images/fashion.jpeg",
-    "html": "",
+    "markdown": "/markdown/fashion-rules.md",
     "fee": "300"
   },
   {
@@ -100,7 +100,7 @@
     "location": "Room no. 207",
     "time": "12 AM",
     "image": "/images/p-making.jpeg",
-    "html": "",
+    "markdown": "/markdown/poster-rules.md",
     "fee": "300"
   },
   {
@@ -113,7 +113,7 @@
     "location": "-",
     "time": "12 AM",
     "image": "/images/rangoli.jpeg",
-    "html": "",
+    "markdown": "/markdown/rangoli-rules.md",
     "fee": "300"
   }
 ]

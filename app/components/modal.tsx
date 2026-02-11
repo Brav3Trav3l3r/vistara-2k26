@@ -1,6 +1,8 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaClock, FaIndianRupeeSign, FaLocationDot } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export default function Modal({ isOpen, onClose, event }) {
   // Close modal on Escape key press
@@ -19,6 +21,18 @@ export default function Modal({ isOpen, onClose, event }) {
       document.body.style.overflow = "unset";
     };
   }, [isOpen, onClose]);
+
+  const [markdown, setMarkdown] = useState("");
+
+  useEffect(() => {
+    console.log("fetching");
+    fetch(event.markdown)
+      .then((res) => res.text())
+      .then((text) => {
+        console.log("text", text);
+        setMarkdown(text);
+      });
+  }, []);
 
   if (!isOpen) return null;
 
@@ -47,7 +61,7 @@ export default function Modal({ isOpen, onClose, event }) {
         </div>
 
         {/* Metadata */}
-        <div className="mt-4 px-4">
+        <div className="mt-4 px-4 pb-2">
           <p className="text-sm sm:text-base leading-snug line-clamp-3">
             {event.description}
           </p>
@@ -70,9 +84,55 @@ export default function Modal({ isOpen, onClose, event }) {
         </div>
 
         {/* Content */}
-        <div className="overflow-y-auto p-6">
-          <div dangerouslySetInnerHTML={{ __html: event.html }} />
-        </div>
+
+        {markdown && (
+          <div className="overflow-y-auto p-6 prose prose-slate max-w-none">
+            <ReactMarkdown
+              components={{
+                h1: ({ node, ...props }) => (
+                  <h1 className="text-3xl font-bold mt-6 mb-4" {...props} />
+                ),
+                h2: ({ node, ...props }) => (
+                  <h2 className="text-2xl font-bold mt-5 mb-3" {...props} />
+                ),
+                h3: ({ node, ...props }) => (
+                  <h3 className="text-xl font-semibold mt-4 mb-2" {...props} />
+                ),
+                p: ({ node, ...props }) => (
+                  <p className="mb-4 leading-relaxed" {...props} />
+                ),
+                ul: ({ node, ...props }) => (
+                  <ul className="list-disc ml-6 mb-4 space-y-2" {...props} />
+                ),
+                ol: ({ node, ...props }) => (
+                  <ol className="list-decimal ml-6 mb-4 space-y-2" {...props} />
+                ),
+                li: ({ node, ...props }) => <li className="mb-1" {...props} />,
+                strong: ({ node, ...props }) => (
+                  <strong className="font-bold" {...props} />
+                ),
+                hr: ({ node, ...props }) => (
+                  <hr className="my-6 border-gray-300" {...props} />
+                ),
+                table: ({ node, ...props }) => (
+                  <table className="border-collapse w-full my-4" {...props} />
+                ),
+                th: ({ node, ...props }) => (
+                  <th
+                    className="border border-gray-300 px-4 py-2 bg-gray-100"
+                    {...props}
+                  />
+                ),
+                td: ({ node, ...props }) => (
+                  <td className="border border-gray-300 px-4 py-2" {...props} />
+                ),
+              }}
+              remarkPlugins={[remarkGfm]}
+            >
+              {markdown}
+            </ReactMarkdown>
+          </div>
+        )}
       </div>
     </div>
   );

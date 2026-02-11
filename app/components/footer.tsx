@@ -22,7 +22,7 @@ export default function Footer(props: { styles?: React.CSSProperties }) {
           </div>
 
           {/* Logo - Right */}
-          <div className="text-lg sm:text-3xl font-bold flex gap-3 items-center font-serif">
+          <div className="text-xl sm:text-3xl font-bold flex gap-3 items-center font-serif">
             <img
               src="/images/fest-logo.png"
               alt="College Logo"
