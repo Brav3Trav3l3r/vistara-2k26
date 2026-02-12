@@ -25,11 +25,9 @@ export default function Modal({ isOpen, onClose, event }) {
   const [markdown, setMarkdown] = useState("");
 
   useEffect(() => {
-    console.log("fetching");
     fetch(event.markdown)
       .then((res) => res.text())
       .then((text) => {
-        console.log("text", text);
         setMarkdown(text);
       });
   }, []);
