@@ -66,7 +66,19 @@ export default function Modal({ isOpen, onClose, event }) {
             {event.description}
           </p>
 
-          <div className="flex gap-6 mt-6">
+          {/* Co-ordinators */}
+          <div className="mt-3">
+            <p>
+              <span className="font-semibold">Faculty Co-ordinator:</span>{" "}
+              {event.faculty_coordinator}
+            </p>
+            <p>
+              <span className="font-semibold">Student Co-ordinator:</span>{" "}
+              {event.student_coordinator}
+            </p>
+          </div>
+
+          <div className="flex gap-6 mt-4">
             <span className="flex items-center gap-2">
               <FaLocationDot />
               {event.location}
@@ -84,13 +96,12 @@ export default function Modal({ isOpen, onClose, event }) {
         </div>
 
         {/* Content */}
-
         {markdown && (
           <div className="overflow-y-auto p-6 prose prose-slate max-w-none">
             <ReactMarkdown
               components={{
                 h1: ({ node, ...props }) => (
-                  <h1 className="text-3xl font-bold mt-6 mb-4" {...props} />
+                  <h1 className="text-3xl font-bold mt-2 mb-4" {...props} />
                 ),
                 h2: ({ node, ...props }) => (
                   <h2 className="text-2xl font-bold mt-5 mb-3" {...props} />

@@ -10,7 +10,9 @@
     "time": "12:30 PM",
     "image": "/images/exhb.jpeg",
     "markdown": "markdown/exhibition-rules.md",
-    "fee": "300"
+    "fee": "200",
+    "faculty_coordinator": "Umesh V",
+    "student_coordinator": "Spandana M"
   },
   {
     "id": 2,
@@ -23,7 +25,9 @@
     "time": "12:30 PM",
     "image": "/images/quiz.jpeg",
     "markdown": "/markdown/quiz-rules.md",
-    "fee": "300"
+    "fee": "200",
+    "faculty_coordinator": "Jayashree S",
+    "student_coordinator": "Likhtha M Y"
   },
   {
     "id": 3,
@@ -36,7 +40,9 @@
     "time": "2:30 PM",
     "image": "/images/dance.jpeg",
     "markdown": "/markdown/dance-rules.md",
-    "fee": "300"
+    "fee": "300",
+    "faculty_coordinator": "Poornima S",
+    "student_coordinator": "Aparanji S"
   },
   {
     "id": 4,
@@ -49,7 +55,9 @@
     "time": "3:30 PM",
     "image": "/images/bow.jpeg",
     "markdown": "/markdown/bow-rules.md",
-    "fee": "300"
+    "fee": "100",
+    "faculty_coordinator": "Mahadeva Prasad K",
+    "student_coordinator": "Vaishnavi Kapgal"
   },
   {
     "id": 5,
@@ -62,7 +70,9 @@
     "time": "6:30 AM",
     "image": "/images/t-hunt.jpeg",
     "markdown": "/markdown/t-hunt-rules.md",
-    "fee": "300"
+    "fee": "400",
+    "faculty_coordinator": "Sindhu N",
+    "student_coordinator": "Sahana Sangappa Havanagi"
   },
   {
     "id": 6,
@@ -75,7 +85,9 @@
     "time": "10:30 AM",
     "image": "/images/debate.jpeg",
     "markdown": "/markdown/debate.md",
-    "fee": "300"
+    "fee": "100",
+    "faculty_coordinator": "Dr. K N Nagaraju",
+    "student_coordinator": "Nisarga B S"
   },
   {
     "id": 7,
@@ -88,7 +100,9 @@
     "time": "10:30 AM",
     "image": "/images/fashion.jpeg",
     "markdown": "/markdown/fashion-rules.md",
-    "fee": "300"
+    "fee": "350",
+    "faculty_coordinator": "Jnaneshwari C",
+    "student_coordinator": "Madalambika M"
   },
   {
     "id": 8,
@@ -101,7 +115,9 @@
     "time": "12 AM",
     "image": "/images/p-making.jpeg",
     "markdown": "/markdown/poster-rules.md",
-    "fee": "300"
+    "fee": "100",
+    "faculty_coordinator": "Nethravathi S",
+    "student_coordinator": "Jithushree S L"
   },
   {
     "id": 9,
@@ -114,6 +130,8 @@
     "time": "12 AM",
     "image": "/images/rangoli.jpeg",
     "markdown": "/markdown/rangoli-rules.md",
-    "fee": "300"
+    "fee": "100",
+    "faculty_coordinator": "Anusha",
+    "student_coordinator": "Sahana G"
   }
 ]
