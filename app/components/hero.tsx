@@ -27,6 +27,7 @@ export default function Hero(props: Readonly<{ styles: React.CSSProperties }>) {
           </p>
           <a
             href={import.meta.env.VITE_FORM_LINK}
+            target="_blank"
             className="mt-8 sm:mt-0 rounded-sm w-max px-12 py-3 text-sm font-medium bg-[#FFC106] text-black"
           >
             REGISTER

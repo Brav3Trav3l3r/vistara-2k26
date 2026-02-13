@@ -58,19 +58,12 @@ export default function Footer(props: { styles?: React.CSSProperties }) {
 
           <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
             <li>
-              <FaFacebook className="text-lg sm:text-2xl" />
-            </li>
-
-            <li>
-              <FaInstagram className="text-lg sm:text-2xl" />
-            </li>
-
-            <li>
-              <FaTwitter className="text-lg sm:text-2xl" />
-            </li>
-
-            <li>
-              <FaGithub className="text-lg sm:text-2xl" />
+              <a
+                target="_blank"
+                href="https://www.instagram.com/jsscwbsc_mysuru"
+              >
+                <FaInstagram className="text-lg sm:text-2xl" />
+              </a>
             </li>
           </ul>
         </div>
