@@ -12,7 +12,6 @@
 
 ## 2. Team Composition
 
-- Each participating college may send a maximum of one team (or as specified).
 - Each team must consist of 2 members.
 - Team members must be from the same institution.
 - No change of team members is allowed after registration.
